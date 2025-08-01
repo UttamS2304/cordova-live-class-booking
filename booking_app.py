@@ -168,23 +168,12 @@ Assigned Teacher: {teacher}
 
         if success1 and success2:
             st.success("✅ Booking Confirmed and Emails Sent Successfully!")
-# --- Sticky Footer Watermark ---
+# --- Copyright Footer ---
 st.markdown("""
-    <style>
-        .footer {
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            text-align: center;
-            font-size: 12px;
-            color: gray;
-            background-color: white;
-            padding: 10px 0;
-            border-top: 1px solid #ccc;
-            z-index: 9999;
-        }
-    </style>
-    <div class="footer">
-        Made by <b>Uttam</b> for <b>Cordova Publication Pvt Ltd</b> © 2025
+    <hr style="margin-top: 50px;">
+    <div style='text-align: center; font-size: 12px; color: #888;'>
+        © 2025 Cordova Publication Pvt Ltd. All rights reserved. <br>
+        Made by <b>Uttam</b>
     </div>
 """, unsafe_allow_html=True)
+
