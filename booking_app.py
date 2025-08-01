@@ -125,10 +125,10 @@ with st.form("booking_form"):
     salesperson_number = st.text_input("📱 Salesperson Number")
     salesperson_email = st.text_input("📧 Salesperson Email")
     school_name = st.text_input("🏫 School Name")
-    grade = st.text_input("🎓 Grade of School")
+   
     curriculum = st.text_input("📚 Curriculum")
     title_used = st.text_input("🏷️ Title Name Used by School")
-
+    grade = st.text_input("🎓 Grade")
     subject = st.selectbox("📖 Select Subject", ["Select"] + list(subjects.keys()))
     slot = st.selectbox("⏰ Select Slot", ["Select"] + time_slots)
 
