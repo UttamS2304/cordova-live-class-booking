@@ -26,7 +26,7 @@ teacher_email_map = {
     "Sneha": "sneha.teacher@example.com",
     "Aparajita": "aparajita.teacher@example.com",
     "Deepanshi": "deepanshi.teacher@example.com",
-    "Megha": "megha.teacher@example.com",
+    "Megha": "khannamegha153@gmail.com",
     "Yaindrila": "dasguptay@gmail.com"
 }
 
