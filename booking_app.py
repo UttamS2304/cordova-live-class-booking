@@ -10,8 +10,9 @@ from email.mime.multipart import MIMEMultipart
 # --- Gmail SMTP Setup ---
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-EMAIL_ID = "uttamsaxena2017@gmail.com"         # replace with your Gmail
-EMAIL_PASS = "myho nhfu tcmt fytj"         # replace with your app password
+EMAIL_ID = os.getenv("EMAIL_ID")
+EMAIL_PASS = os.getenv("EMAIL_PASS")
+
 COORDINATOR_EMAIL = "uttameditor@cordova.co.in"
 
 # --- Initial Setup ---
@@ -201,3 +202,4 @@ st.markdown("""
     Made by <b>Uttam</b>
 </div>
 """, unsafe_allow_html=True)
+
